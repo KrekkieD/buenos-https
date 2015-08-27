@@ -1,0 +1,22 @@
+{
+  "name": "buenos-https",
+  "version": "0.1.0-alpha",
+  "description": "HTTPS server wrapper with self-signed certificates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KrekkieD/buenos-https.git"
+  },
+  "author": "Gregory Cowan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KrekkieD/buenos-https/issues"
+  },
+  "homepage": "https://github.com/KrekkieD/buenos-https",
+  "devDependencies": {
+    "express": "^4.13.3"
+  }
+}
