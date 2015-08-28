@@ -4,14 +4,21 @@ var $fs = require('fs');
 var $https = require('https');
 
 module.exports = buenosHttps;
+module.exports.getDefaultOptions = getDefaultOptions;
 
-function buenosHttps (app) {
+function buenosHttps (app, options) {
 
-    var options = {
+    options = options || getDefaultOptions();
+
+    return $https.createServer(options, app);
+
+}
+
+function getDefaultOptions () {
+
+    return {
         key: $fs.readFileSync(__dirname + '/certs/server.key'),
         cert: $fs.readFileSync(__dirname + '/certs/server.crt')
     };
-
-    return $https.createServer(options, app);
 
 }
