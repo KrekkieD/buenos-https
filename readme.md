@@ -56,8 +56,14 @@ By default the options object contains the result of `buenosHttps.getDefaultOpti
 Returns the default options object, includes the embedded certificates.
 
 ```javascript
-{
-    key: 'some server key',
-    cert: 'some server cert'
-}
+
+var $buenosHttps = require('buenos-https');
+
+$buenosHttps.getDefaultOptions();
+
+// returns:
+// {
+//     key: 'server key',
+//     cert: 'server cert'
+// }
 ```

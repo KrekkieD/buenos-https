@@ -2,6 +2,7 @@
   "name": "buenos-https",
   "version": "0.3.0",
   "description": "HTTPS server wrapper with self-signed certificates",
+  "keywords": ["https", "secure", "ssl", "tls", "express", "connect", "certificates"],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
