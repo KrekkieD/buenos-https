@@ -1,6 +1,6 @@
 {
   "name": "buenos-https",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "HTTPS server wrapper with self-signed certificates",
   "main": "index.js",
   "scripts": {
